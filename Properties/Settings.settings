@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MusicQualityChecker.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="spekPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files (x86)\Spek\spek.exe</Value>
+    </Setting>
+    <Setting Name="dlArgument" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{0} {1} -o "{2}\%(title)s.%(ext)s" -f bestaudio --extract-audio --audio-quality 0 --audio-format best</Value>
+    </Setting>
+    <Setting Name="youtubeDLPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">youtube-dl</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
